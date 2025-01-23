@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdelSalamUserDetailsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8266c73e92b4a33b6dffbeb98152a8da6d83c8db")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdelSalamUserDetailsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdelSalamUserDetailsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

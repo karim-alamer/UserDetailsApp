@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oCfnpNUmZDYk3X50wEgl3p2meYUw8ljOYTn8IhCL1cM=",
+  "Hash": "nR2XuMiZdNGP5myfimNe1ETsTer+Hb2di57qC0I0rXQ=",
   "Source": "AdelSalamUserDetailsApp",
   "BasePath": "_content/AdelSalamUserDetailsApp",
   "Mode": "Default",
@@ -1136,6 +1136,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pro4.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\Task.jpg",
+      "SourceId": "AdelSalamUserDetailsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\",
+      "BasePath": "_content/AdelSalamUserDetailsApp",
+      "RelativePath": "images/Task.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Task.jpg"
     },
     {
       "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\WhatsApp Image 2024-02-03 at 10.49.00 PM.jpeg",
@@ -2430,6 +2449,25 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\162fe885-d407-4f0a-8d29-238961cc6b53.pdf"
     },
     {
+      "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\1ad582e5-b25a-457f-aede-05b8753b0e33.pdf",
+      "SourceId": "AdelSalamUserDetailsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\",
+      "BasePath": "_content/AdelSalamUserDetailsApp",
+      "RelativePath": "pdfs/1ad582e5-b25a-457f-aede-05b8753b0e33.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\1ad582e5-b25a-457f-aede-05b8753b0e33.pdf"
+    },
+    {
       "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\1d4e865f-eca4-40a5-829a-0a12eea57c2a.pdf",
       "SourceId": "AdelSalamUserDetailsApp",
       "SourceType": "Discovered",
@@ -2523,6 +2561,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pdfs\\3887cc3f-f8af-45f8-9d13-08e726bb9b19.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\42ab4b9c-2926-4632-8be7-92ff31a96e42.pdf",
+      "SourceId": "AdelSalamUserDetailsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\",
+      "BasePath": "_content/AdelSalamUserDetailsApp",
+      "RelativePath": "pdfs/42ab4b9c-2926-4632-8be7-92ff31a96e42.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\42ab4b9c-2926-4632-8be7-92ff31a96e42.pdf"
     },
     {
       "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\5838a6e2-d800-4ba2-8817-a50965a5a83a.pdf",
@@ -2789,6 +2846,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pdfs\\7525151b-e07a-4f88-af4f-d42768738138.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\7af9c25b-2b20-4b5a-8422-3c4258909108.pdf",
+      "SourceId": "AdelSalamUserDetailsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\",
+      "BasePath": "_content/AdelSalamUserDetailsApp",
+      "RelativePath": "pdfs/7af9c25b-2b20-4b5a-8422-3c4258909108.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\7af9c25b-2b20-4b5a-8422-3c4258909108.pdf"
     },
     {
       "Identity": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\7e07c136-9711-4c93-8b13-cc735981c55e.pdf",

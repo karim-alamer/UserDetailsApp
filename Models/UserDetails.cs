@@ -28,6 +28,6 @@ namespace AdelSalamUserDetailsApp.Models
         public List<IFormFile> Images { get; set; }
 
         [Required(ErrorMessage = "Signature is required")]
-        public string SignatureData { get; set; } // Base64 encoded signature
+        public string SignatureData { get; set; } 
     }
 }

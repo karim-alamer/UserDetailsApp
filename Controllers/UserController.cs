@@ -15,19 +15,15 @@ namespace AdelSalamUserDetailsApp.Controllers
         public UserController()
         {
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("https://localhost:7260/api/"); // Replace with your API base URL
+            _httpClient.BaseAddress = new Uri("https://localhost:7260/api/");
             _httpClient.DefaultRequestHeaders.Accept.Clear();
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
-
-        // GET: User/Index
         [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-
-        // POST: User/Submit
         [HttpPost]
         public async Task<IActionResult> Submit(UserDetails model, List<IFormFile> Images)
         {
@@ -35,8 +31,6 @@ namespace AdelSalamUserDetailsApp.Controllers
             {
                 return View("Index", model);
             }
-
-            // Prepare the form data
             var formData = new MultipartFormDataContent();
             formData.Add(new StringContent(model.Name), "Name");
             formData.Add(new StringContent(model.Email), "Email");

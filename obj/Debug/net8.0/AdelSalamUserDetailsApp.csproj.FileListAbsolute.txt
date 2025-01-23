@@ -242,3 +242,4 @@ C:\Users\karim\source\repos\AdelSalamUserDetailsApp\AdelSalamUserDetailsApp\obj\
 C:\Users\karim\source\repos\AdelSalamUserDetailsApp\AdelSalamUserDetailsApp\obj\Debug\net8.0\ref\AdelSalamUserDetailsApp.dll
 C:\Users\karim\source\repos\AdelSalamUserDetailsApp\AdelSalamUserDetailsApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\karim\source\repos\AdelSalamUserDetailsApp\AdelSalamUserDetailsApp\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+C:\Users\karim\source\repos\AdelSalamUserDetailsApp\AdelSalamUserDetailsApp\obj\Debug\net8.0\AdelSalamUserDetailsApp.sourcelink.json

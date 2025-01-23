@@ -46,21 +46,14 @@ namespace AdelSalamUserDetailsApp.Controllers.Api
                         imagePaths.Add(filePath);
                     }
                 }
-
-                // Generate PDF
                 var pdfPath = GeneratePdf(model, imagePaths);
-
-                // Return the PDF file
                 var fileBytes = System.IO.File.ReadAllBytes(pdfPath);
                 return File(fileBytes, "application/pdf", "UserDetails.pdf");
             }
             catch (Exception ex)
             {
-                // Log the exception for debugging
                 Console.Error.WriteLine($"Error generating PDF: {ex.Message}");
                 Console.Error.WriteLine($"Stack Trace: {ex.StackTrace}");
-
-                // Include detailed error information in the response for easier debugging
                 return StatusCode(500, new
                 {
                     message = "An error occurred while generating the PDF.",
@@ -83,13 +76,9 @@ namespace AdelSalamUserDetailsApp.Controllers.Api
             using (var writer = new PdfWriter(pdfPath))
             {
                 var pdf = new PdfDocument(writer);
-
-                // Explicitly add a page to the document
                 pdf.AddNewPage();
 
                 var document = new Document(pdf);
-
-                // Add background color
                 var canvas = new iText.Kernel.Geom.Rectangle(0, 0, pdf.GetDefaultPageSize().GetWidth(), pdf.GetDefaultPageSize().GetHeight());
                 var pdfCanvas = new iText.Kernel.Pdf.Canvas.PdfCanvas(pdf.GetFirstPage());
                 pdfCanvas.SaveState();
@@ -98,7 +87,6 @@ namespace AdelSalamUserDetailsApp.Controllers.Api
                 pdfCanvas.Fill();
                 pdfCanvas.RestoreState();
 
-                // Add header
                 document.Add(new Paragraph("User Details Report")
                     .SetFontSize(24)
                     .SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER)
@@ -106,8 +94,6 @@ namespace AdelSalamUserDetailsApp.Controllers.Api
                     .SetFontColor(new DeviceRgb(0, 51, 102)));
 
                 document.Add(new Paragraph("\n"));
-
-                // User details table
                 var detailsTable = new Table(2).SetWidth(iText.Layout.Properties.UnitValue.CreatePercentValue(100)).SetMarginBottom(20);
                 detailsTable.AddCell(new Cell().Add(new Paragraph("Name").SetFont(iText.Kernel.Font.PdfFontFactory.CreateFont(iText.IO.Font.Constants.StandardFonts.HELVETICA_BOLD))));
                 detailsTable.AddCell(new Cell().Add(new Paragraph(model.Name)));
