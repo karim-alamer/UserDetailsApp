@@ -1,0 +1,681 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdelSalamUserDetailsApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AdelSalamUserDetailsApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\OpenSans-Italic-VariableFont_wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans-Italic-VariableFont_wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\OpenSans-VariableFont_wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans-VariableFont_wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\Open_Sans.zip",
+      "PackagePath": "staticwebassets\\fonts\\Open_Sans.zip"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\README.txt",
+      "PackagePath": "staticwebassets\\fonts\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_Condensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_Condensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\fonts\\static\\OpenSans_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\OpenSans_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\MongoDBCompass.exe",
+      "PackagePath": "staticwebassets\\images\\MongoDBCompass.exe"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\WhatsApp Image 2024-02-03 at 10.49.00 PM.jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-02-03 at 10.49.00 PM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\app1.jpeg",
+      "PackagePath": "staticwebassets\\images\\app1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\boos - Copy.jpeg",
+      "PackagePath": "staticwebassets\\images\\boos - Copy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\boos.jpeg",
+      "PackagePath": "staticwebassets\\images\\boos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\n1.png",
+      "PackagePath": "staticwebassets\\images\\n1.png"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\n2.jpeg",
+      "PackagePath": "staticwebassets\\images\\n2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\n3.png",
+      "PackagePath": "staticwebassets\\images\\n3.png"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\n44.png",
+      "PackagePath": "staticwebassets\\images\\n44.png"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\neew.PNG",
+      "PackagePath": "staticwebassets\\images\\neew.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\pn.PNG",
+      "PackagePath": "staticwebassets\\images\\pn.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\pro1.PNG",
+      "PackagePath": "staticwebassets\\images\\pro1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\pro3.PNG",
+      "PackagePath": "staticwebassets\\images\\pro3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\pro4.PNG",
+      "PackagePath": "staticwebassets\\images\\pro4.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\الاستقبال 1.PNG",
+      "PackagePath": "staticwebassets\\images\\الاستقبال 1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\الاستقبال 2.PNG",
+      "PackagePath": "staticwebassets\\images\\الاستقبال 2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\images\\الاستقبال3.PNG",
+      "PackagePath": "staticwebassets\\images\\الاستقبال3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\05aca1f9-f175-4a22-bc6f-4e273415a052.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\05aca1f9-f175-4a22-bc6f-4e273415a052.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\0d7c9e93-a046-4b14-aaf7-3734f91d1cf1.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\0d7c9e93-a046-4b14-aaf7-3734f91d1cf1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\0eccc11e-23b1-400f-bd8f-a88b746ce59b.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\0eccc11e-23b1-400f-bd8f-a88b746ce59b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\1047b3ed-027a-43a3-83a4-1826e5fd0f07.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\1047b3ed-027a-43a3-83a4-1826e5fd0f07.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\10b741c8-c996-4c66-9bf0-f5e462bb7aa1.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\10b741c8-c996-4c66-9bf0-f5e462bb7aa1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\162fe885-d407-4f0a-8d29-238961cc6b53.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\162fe885-d407-4f0a-8d29-238961cc6b53.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\1d4e865f-eca4-40a5-829a-0a12eea57c2a.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\1d4e865f-eca4-40a5-829a-0a12eea57c2a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\215e0ce3-935d-4078-b96d-075d1af2bac1.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\215e0ce3-935d-4078-b96d-075d1af2bac1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\24b7d79a-65f4-4e6f-b02c-4b7d5f05abfd.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\24b7d79a-65f4-4e6f-b02c-4b7d5f05abfd.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\31929397-f2b5-4190-a986-6593c4ea555e.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\31929397-f2b5-4190-a986-6593c4ea555e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\3887cc3f-f8af-45f8-9d13-08e726bb9b19.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\3887cc3f-f8af-45f8-9d13-08e726bb9b19.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\5838a6e2-d800-4ba2-8817-a50965a5a83a.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\5838a6e2-d800-4ba2-8817-a50965a5a83a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\59e3b452-4ac0-4c4e-8eae-e155130d678f.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\59e3b452-4ac0-4c4e-8eae-e155130d678f.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\5f7530c2-32ba-444b-ab1b-6e1b892aaa6c.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\5f7530c2-32ba-444b-ab1b-6e1b892aaa6c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\603cf8f4-d7ed-4f09-b216-b0706e63ec72.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\603cf8f4-d7ed-4f09-b216-b0706e63ec72.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6566d809-ea26-4b6a-8db6-90d6b26607c5.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6566d809-ea26-4b6a-8db6-90d6b26607c5.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\65854aea-97dc-4b77-8355-4f268eef1e70.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\65854aea-97dc-4b77-8355-4f268eef1e70.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6a4bd386-22c9-4a1a-a065-9e7cbbf5a130.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6a4bd386-22c9-4a1a-a065-9e7cbbf5a130.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6aa45504-e1bd-45f5-a3b8-5d30de0e05b3.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6aa45504-e1bd-45f5-a3b8-5d30de0e05b3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6e048ac0-e4c2-4456-be06-82e36d3fd289.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6e048ac0-e4c2-4456-be06-82e36d3fd289.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6e531906-7978-49f5-bb5d-b97135c38284.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6e531906-7978-49f5-bb5d-b97135c38284.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\6f59d3b1-13f2-4f99-9a95-1accba329579.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\6f59d3b1-13f2-4f99-9a95-1accba329579.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\726b6410-795f-485c-9e28-e9d6db44c38b.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\726b6410-795f-485c-9e28-e9d6db44c38b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\7322f591-46de-4a3d-a988-dcec78792eaa.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\7322f591-46de-4a3d-a988-dcec78792eaa.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\7525151b-e07a-4f88-af4f-d42768738138.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\7525151b-e07a-4f88-af4f-d42768738138.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\7e07c136-9711-4c93-8b13-cc735981c55e.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\7e07c136-9711-4c93-8b13-cc735981c55e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\8890ac2b-53c2-4512-b486-297baf7fce95.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\8890ac2b-53c2-4512-b486-297baf7fce95.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\8f971aef-c9fe-4d8a-b658-9f74fc48d5fb.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\8f971aef-c9fe-4d8a-b658-9f74fc48d5fb.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\905eb471-c65a-48ff-9940-54c491bc8b9c.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\905eb471-c65a-48ff-9940-54c491bc8b9c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\943381c1-feb6-449a-b020-471391a6be89.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\943381c1-feb6-449a-b020-471391a6be89.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\9616ae5a-eb86-4865-bdb3-241e80dca8c4.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\9616ae5a-eb86-4865-bdb3-241e80dca8c4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\98d0653c-a6d4-4723-bf5d-a7727137a748.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\98d0653c-a6d4-4723-bf5d-a7727137a748.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\a8e80f35-0bbf-46de-a6b9-2f54846f2e18.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\a8e80f35-0bbf-46de-a6b9-2f54846f2e18.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\bf371213-ae47-4129-8657-f3194a4ebafb.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\bf371213-ae47-4129-8657-f3194a4ebafb.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\c0874602-89e7-483c-9b87-92da46a8353d.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\c0874602-89e7-483c-9b87-92da46a8353d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\c462036a-3198-4c5d-917e-44f652492fa6.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\c462036a-3198-4c5d-917e-44f652492fa6.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\c617e96c-6ce9-446c-997c-6381e0a35782.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\c617e96c-6ce9-446c-997c-6381e0a35782.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\cb35bbff-5d98-4924-b4d1-fb1e6de7e8bc.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\cb35bbff-5d98-4924-b4d1-fb1e6de7e8bc.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\cb7868e9-81e0-4091-83d4-afcbff2e8e45.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\cb7868e9-81e0-4091-83d4-afcbff2e8e45.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\cfb7b4e1-ab38-4e27-8ad1-07f6a5146210.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\cfb7b4e1-ab38-4e27-8ad1-07f6a5146210.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\e2736464-2b19-4ef0-90ed-6ac4ec44bdbf.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\e2736464-2b19-4ef0-90ed-6ac4ec44bdbf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\e3ab86da-9d53-4aeb-82d5-6dc00eb1999d.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\e3ab86da-9d53-4aeb-82d5-6dc00eb1999d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\e971f3f2-6fff-472d-8fcf-0555960e3d25.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\e971f3f2-6fff-472d-8fcf-0555960e3d25.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\f36242fb-0718-41d5-9efc-e08d5c9a2905.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\f36242fb-0718-41d5-9efc-e08d5c9a2905.pdf"
+    },
+    {
+      "Id": "C:\\Users\\karim\\source\\repos\\AdelSalamUserDetailsApp\\AdelSalamUserDetailsApp\\wwwroot\\pdfs\\faa991cb-d164-4807-a1f4-112205d5c389.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\faa991cb-d164-4807-a1f4-112205d5c389.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdelSalamUserDetailsApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AdelSalamUserDetailsApp.props",
+      "PackagePath": "build\\AdelSalamUserDetailsApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AdelSalamUserDetailsApp.props",
+      "PackagePath": "buildMultiTargeting\\AdelSalamUserDetailsApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AdelSalamUserDetailsApp.props",
+      "PackagePath": "buildTransitive\\AdelSalamUserDetailsApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

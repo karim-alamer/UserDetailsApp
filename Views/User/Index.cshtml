@@ -1,0 +1,254 @@
+﻿@model AdelSalamUserDetailsApp.Models.UserDetails
+
+@{
+    ViewBag.Title = "User Details Form";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="card-title text-center">User Details Form</h2>
+                </div>
+                <div class="card-body">
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <li>@error.ErrorMessage</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+
+                    <form id="userForm" method="post" enctype="multipart/form-data" novalidate>
+                        <!-- Name Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter your name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Phone Number Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="PhoneNumber" class="form-label">Phone Number</label>
+                            <input asp-for="PhoneNumber" class="form-control" placeholder="Enter your phone number" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <!-- Upload Images Field -->
+                        <div class="form-group mb-3">
+                            <label class="form-label">Upload Images</label>
+                            <input type="file" name="Images" multiple class="form-control" />
+                            <span asp-validation-for="Images" class="text-danger"></span>
+                            <small class="form-text text-muted">You can upload multiple images.</small>
+                        </div>
+
+                        <!-- Signature Pad -->
+                        <div class="form-group mb-3">
+                            <label class="form-label">Signature</label>
+                            <div class="border rounded p-3">
+                                <canvas id="signature-pad" width="400" height="200" style="border: 1px solid #ddd; background-color: #f9f9f9;"></canvas>
+                            </div>
+                            <input type="hidden" asp-for="SignatureData" id="signature-data" />
+                            <button type="button" id="clear-signature" class="btn btn-secondary mt-2">Clear Signature</button>
+                            <span id="signature-error" class="text-danger" style="display: none;">Signature is required</span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Loader -->
+<div id="loader" class="loader-overlay">
+    <div class="loader"></div>
+</div>
+
+<!-- jQuery and jQuery Validation Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+<!-- Signature Pad Script -->
+<script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+<script>
+    var canvas = document.getElementById('signature-pad');
+    var signaturePad = new SignaturePad(canvas, {
+        backgroundColor: '#f9f9f9', // Background color of the signature pad
+        penColor: '#000000' // Color of the signature
+    });
+
+    // Clear Signature Button
+    document.getElementById('clear-signature').addEventListener('click', function () {
+        signaturePad.clear();
+        document.getElementById('signature-error').style.display = 'none'; // Hide error message
+    });
+
+    // Handle Form Submission
+    document.getElementById('userForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        // Validate the signature
+        if (signaturePad.isEmpty()) {
+            document.getElementById('signature-error').style.display = 'block'; // Show error message
+            return; // Stop form submission
+        } else {
+            document.getElementById('signature-error').style.display = 'none'; // Hide error message
+        }
+
+        // Capture the signature
+        var signatureData = signaturePad.toDataURL(); // Get the signature as a base64-encoded image
+        document.getElementById('signature-data').value = signatureData; // Assign it to the hidden input field
+
+        // Show the loader
+        document.getElementById('loader').style.display = 'flex';
+
+        // Prepare form data
+        var formData = new FormData(this);
+
+        // Send the form data using AJAX
+        fetch('/api/user/submit', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.blob(); // Get the PDF file as a blob
+                } else {
+                    return response.json().then(err => { throw err; }); // Parse error response
+                }
+            })
+            .then(blob => {
+                // Hide the loader
+                document.getElementById('loader').style.display = 'none';
+
+                // Show success message
+                showMessage('The Data Filled Successfully', 'success');
+
+                // Create a link to download the PDF
+                var url = window.URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = 'UserDetails.pdf';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            })
+            .catch(error => {
+                // Hide the loader
+                document.getElementById('loader').style.display = 'none';
+
+                // Show error message
+                if (error.errors) {
+                    // Display validation errors
+                    var errorMessage = Object.values(error.errors).join('\n').substring(0, 50); // Limit to 50 characters
+                    showMessage(errorMessage, 'error');
+                } else {
+                    // Display generic error message
+                    var errorMessage = (error.message || 'Unknown error').substring(0, 50); // Limit to 50 characters
+                    showMessage(errorMessage, 'error');
+                }
+            });
+    });
+
+    // Function to show messages
+    function showMessage(message, type) {
+        // Remove any existing messages
+        var existingMessage = document.getElementById('form-message');
+        if (existingMessage) {
+            existingMessage.remove();
+        }
+
+        // Create a new message element
+        var messageElement = document.createElement('div');
+        messageElement.id = 'form-message';
+        messageElement.className = 'alert ' + (type === 'success' ? 'alert-success' : 'alert-danger');
+        messageElement.textContent = message;
+
+        // Append the message to the form
+        var form = document.getElementById('userForm');
+        form.parentNode.insertBefore(messageElement, form.nextSibling);
+
+        // Automatically remove the message after 5 seconds
+        setTimeout(function () {
+            messageElement.remove();
+        }, 5000);
+    }
+</script>
+
+<!-- Loader CSS -->
+<style>
+    /* Loader Overlay */
+    .loader-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it's on top of everything */
+        display: none; /* Hidden by default */
+    }
+
+    /* Loader Animation */
+    .loader {
+        border: 8px solid #f3f3f3; /* Light grey */
+        border-top: 8px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite; /* Spin animation */
+    }
+
+    /* Spin Animation */
+    @@keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* Message Styling */
+    .alert {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+</style>
